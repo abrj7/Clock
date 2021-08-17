@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georama', sans-serif;
+    background-color: #11052C;
+}
+
+h1{
+    background-color: #11052C;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.buttons{
+    text-align: center;
+    border-radius: 15%;
+}
+
+button{
+    padding-left: 20px;
+}
+

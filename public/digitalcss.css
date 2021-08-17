@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georama', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #11052C;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #11052C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 200px;
+    align-items: center; 
+}
+
+.date{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    z-index: 999;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.clock{
+    position: relative;
+    width: 900px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    z-index: 999;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.clock .container h2{
+    font-size: 6em;
+    color: white;
+}
+
+.date .container h2{
+    font-size: 2em;
+    color: white;
+}
+
+.date .period{
+    top: 30px;
+    position: relative;
+    font-size: 1em;
+    color: white;
+    font-weight: 700;
+}
+
+.square{
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.05);
+    border-right:  1px solid rgba(255, 255, 255, 0.05);
+}
+
+.period{
+    position: relative;
+    top: -50px;
+    font-size: 2em;
+    color: white;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 780px) {
+    .clock .container h2{
+        font-size: 4em;
+        color: white;
+        }
+
+
+    .clock{
+        position: relative;
+        width: 700px;
+        height: 220px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        z-index: 999;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+
